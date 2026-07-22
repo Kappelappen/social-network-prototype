@@ -1,0 +1,33 @@
+<h2>Welcome to SoulRoom</h2>
+
+<p>
+SoulRoom is a place to preserve the story of a life.
+It is a digital space where memories, thoughts, photographs,
+videos, and personal reflections can be gathered into a single
+room that represents who you are and the journey you have taken.
+</p>
+
+<p>
+For some, SoulRoom is a memory room for the soul.
+For others, it is a living archive of a person's experiences,
+relationships, dreams, and legacy.
+Whatever your beliefs, every life leaves behind stories worth remembering.
+</p>
+
+<p>
+During life, you can build your own SoulRoom,
+adding chapters as your journey continues.
+In time, it may also become a place where family and friends
+can remember, reflect, and celebrate the moments
+that shaped your life.
+</p>
+
+<p>
+Every person has a unique story.
+Every journey deserves to be remembered.
+</p>
+
+<p>
+<strong>Welcome to SoulRoom.</strong>
+</p>
+```

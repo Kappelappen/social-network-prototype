@@ -1,0 +1,498 @@
+/* =========================
+   SoulRoom - Main Theme
+   White / Light Blue
+   ========================= */
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #FFFFFF;
+    color: #333300;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page-header {
+
+    margin: 0;
+    background:  #0099CC;
+    text-align: left;
+    border-bottom: 1px solid #c7e8fa;
+
+}
+
+.page-headline {
+    
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #4753de;
+    letter-spacing: 1px;   
+    background-color: #FFFFFF;
+
+}
+
+.page-headline h1 {
+    
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 1px;   
+    background-color: #0099CC;
+
+}
+
+.page-headline p {
+
+    background-color: #0099CC;
+    padding-bottom: 20px;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+
+.page-menubar {
+
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #1683c6;
+    font-weight: 600;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+}
+
+.page-menubar a:hover {
+    background: #9fa8ae;
+    color: #075985;
+}
+
+.top-headline {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+
+}
+
+.main-headline {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+}
+
+.main-view {
+
+    clear: both;
+    flex: 1;
+    width: 90%;
+    max-width: 1100px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin: 0;
+
+}
+
+.info-view {
+
+    position: relative;
+    clear: both;
+    display: block;
+    padding-left: 25px;
+    padding-bottom: 20px;
+
+}
+
+.info-view h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin: 0;
+
+}
+
+.info-view h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin: 0;
+
+}
+
+.info-view p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333300;
+    padding: 0;
+    margin: 0;
+
+}
+
+.button {
+
+    display: inline-block;
+    background: #0099CC;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+
+.button:hover {
+
+    background: #075985;
+
+}
+
+.page-footer {
+
+    background: #0099CC;
+    color: #607d8b;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333300;
+    margin-top: auto;
+    color:#FFFFFF
+
+}
+
+@media(max-width: 600px) {
+
+
+    .header h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+
+    .nav {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .main {
+
+        width: 95%;
+
+    }
+}
+
+.profile-info {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.profile-info li {
+
+    background: #f7fbff;
+    border: 1px solid #d8ecf8;
+    padding: 0 6px;
+    margin-bottom: 6px;
+    border-radius: 12px;
+    color: #2d607d;
+
+}
+
+
+.profile-info strong {
+
+    display: inline-block;
+    width: 120px;
+    color: #1683c6;
+
+}
+
+.profile {
+
+
+    text-align: left;
+    float: left;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    background: #fff;
+
+}
+
+.left-profile {
+    flex: 0 0 16px;
+}
+
+.right-profile {
+    flex: 0 0 65%;
+    padding: 30px;
+}
+
+.left-profile img {
+    display: block;
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+}
+
+.settings-container {
+
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+.settings-container h1 {
+
+    color:#1683c6;
+    margin-bottom:25px;
+
+}
+
+.save-button {
+
+    margin-top:20px;
+    background:#0099CC;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+
+}
+
+.save-button:hover {
+
+    background:#075985;
+
+}
+
+.delete-button {
+
+    background:#CC0000;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+
+}
+
+.members-headline {
+
+
+    position: relative;
+    border: 0;
+    padding-left: 25px;
+
+
+}
+
+.members-grid {
+
+    display: grid;
+    grid-template-columns: repeat(6,0fr);
+    gap: 0;
+
+}
+
+.member-card {
+
+    vertical-align: top;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    background: #FFFFFF;
+
+}
+
+.member-card img {
+
+    width: 86px;
+    height: 86px;
+    border-radius: 6%;
+    object-fit: cover;
+
+}
+
+.member-card a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #cc0000;
+    text-decoration: none;
+
+}
+
+.member-card a:hover {
+
+    text-decoration: underline;
+
+}
+
+.message p {
+
+    position: relative;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    padding-left: 25px;
+    width: auto;
+    color: #CC0000;
+    font-weight: bold;
+
+}
+
+.message a {
+
+    position: relative;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-left: 25px;
+    text-decoration: none;
+ 
+}
+
+.message a:hover {
+
+    text-decoration: underline;
+ 
+}
+
+.pagination {
+
+    position: relative;
+    clear: both;
+    padding-top: 10px;
+
+}
+
+.pagination a {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #003366;
+    text-decoration: none;
+
+}
+
+.pagination a:hover {
+
+    text-decoration: underline;
+
+}
+
+.page-box {
+
+    position: relative;
+    clear: both;
+    text-align: left;
+    padding-left: 25px;
+
+}
+
+.dashboard {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+
+.hero {
+
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.dashboard-grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+
+
+.card {
+
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+
+}
+
+.stats {
+
+    display: flex;
+    gap: 15px;
+
+}
+
+
+
+.stat-box {
+
+    flex: 1;
+    text-align: center;
+
+}
+
+.members-preview {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.member img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}

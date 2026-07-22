@@ -1,0 +1,330 @@
+
+.form-area {
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.login-container {
+
+    display: block;
+    text-align: left;
+    clear: both;
+    padding-left: 25px;
+    width: 700px;
+    max-width: 700px;
+
+}
+
+.login-card {
+
+    text-align: left;
+    margin: 0;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+.login-card h2 {
+
+    margin-top: 0;
+    text-align: left;
+    color: #1683c6;
+
+}
+
+.subtitle {
+
+    text-align: left;
+    color: #607d8b;
+    margin-bottom: 10px;
+
+}
+
+.details-info {
+
+    position: relative;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+
+}
+
+.form-group {
+
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+
+.form-group label {
+
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #355166;
+
+}
+
+
+.form-group input {
+
+    padding: 14px;
+    border: 1px solid #333300;
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+    transition: 0.3s;
+
+}
+
+.form-group textarea {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid #000000;
+    padding: 6px;
+
+}
+
+.form-group input:focus {
+
+    border-color: #0099CC;
+
+    box-shadow:
+        0 0 10px rgba(22,131,198,0.20);
+
+}
+
+.comments-btn {
+
+    position: relative;
+    clear: both;
+    background-color: #0099CC;
+    color: #FFFFFF;
+    width: 130px;
+    height: auto;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+.settings-button {
+
+    margin-left: 20px;
+
+}
+
+
+.login-button {
+
+    width: 600px;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    background: #1683c6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;  
+    margin-top: 8px;
+
+}
+
+
+.login-button:hover {
+
+    background: #0d6ea6;
+
+}
+
+
+.register-link {
+
+    margin-top: 25px;
+    text-align: left;
+
+}
+
+.register-link a {
+
+    color: #1683c6;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.register-link a:hover {
+
+    text-decoration: underline;
+
+}
+
+.chkbox {
+
+    background-color: #0d6ea6;
+    color:#FFFFFF;
+
+}
+
+.login-field {
+
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 600px;
+    height: 33px;
+    
+}
+
+.text-area {
+
+    position: relative;
+    clear: both;
+    width: 690px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+
+}
+
+.text-component {
+
+    position: relative;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 690px;
+    height: 33px;
+
+}
+
+.date-component {
+
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 690px;
+    height: auto;
+
+}
+
+.form-message {
+
+    width: 100%;
+    max-width: 420px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: #f2d6f6;
+    border: 2px solid #CCCC00;
+    color: #a13b55;
+    padding: 15px 20px;
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.06);
+
+}
+
+.form-message ul {
+
+    margin: 0;
+    padding-left: 20px;
+
+}
+
+
+.form-message li {
+
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-style: bold;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.form-message li:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.checkbox {
+
+    position: relative;
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    margin-left: 0;
+
+}
+
+.save-btn {
+
+    clear: both;
+    width: 126px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0099CC;
+    color: #FFFFFF;
+
+}
+
+.delete-btn {
+
+    clear: both;
+    width: 126px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #CC0000;
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+
+.danger-zone {
+
+    position: relative;
+    clear: both;
+    padding-top: 6px;
+    padding-bottom: 10px;
+
+}
+
+.combobox {
+
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 33px;
+    padding-left: 16px;
+
+}
+
+.browser {
+
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 690px;
+    height: auto;
+
+}
